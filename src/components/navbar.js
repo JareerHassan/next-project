@@ -54,12 +54,11 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="md:hidden px-4 pb-4 space-y-2 text-gray-700 font-small">
-          <li><Link href="#home" className="block hover:text-yellow-700">Home</Link></li>
-          <li><Link href="#services" className="block hover:text-yellow-700">Services</Link></li>
-          <li><Link href="#work" className="block hover:text-yellow-700">Work</Link></li>
-          <li><Link href="#skills" className="block hover:text-yellow-700">Skills</Link></li>
-          <li><Link href="#testimonials" className="block hover:text-yellow-700">Testimonials</Link></li>
-          <li><Link href="#map" className="block hover:text-yellow-700">Map</Link></li>
+          <li><Link href="/" className="block hover:text-yellow-700">Home</Link></li>
+          <li><Link href="/services" className="block hover:text-yellow-700">Services</Link></li>
+          <li><Link href="/featured" className="block hover:text-yellow-700">Work</Link></li>
+          <li><Link href="/skills" className="block hover:text-yellow-700">Skills</Link></li>
+          <li><Link href="/ourclient" className="block hover:text-yellow-700">Testimonials</Link></li>
         </ul>
       )}
     </nav>
